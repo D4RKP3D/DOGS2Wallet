@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Matemasie&family=New+Amsterdam&display=swap');
+html , body {
+    height:100vh;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    direction:ltr;
+    text-align:left;
+    font-family: "Vazirmatn", sans-serif;
+}
+
+.btn {
+    font-family: "Jersey 10", sans-serif;
+    font-size:28px;
+    width:200px !important;
+    display: block;
+    margin: auto;
+    border-radius: 14px;
+}
+
+img {
+    width:150px;
+    mix-blend-mode:screen;
+}
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-family: "New Amsterdam", sans-serif;
+    text-align: center;
+    color:white;
+
+}
+
+.dogs {
+    font-family: "Matemasie", sans-serif;
+    color:white;
+}
+
+.freepavel a {
+    font-family: "New Amsterdam", sans-serif;
+    position: fixed;
+    bottom:30px;
+    left:10px;
+    right:10px;
+    color:white;
+    text-align: center;
+    font-size:22px;
+    text-decoration: unset;
+    padding:0.5rem;
+    background:rgba(0, 0, 0, 0.58);
+    border-radius: 14px;
+    width:80%;
+    display:block;
+    margin: auto;
+    border:1px solid rgba(255, 255, 255, 0.607);
+}
+
+ul {
+    color:white;
+    font-size:14px;
+}
